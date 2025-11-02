@@ -16,7 +16,7 @@ genome-mutation-pipeline/
 │   ├── example_alignment.maf
 │   └── gene_annotations/
 │
-├── scripts/                 # All Python and R scripts for workflow
+├── scripts/                 # All Python and R scripts 
 │   ├── 01_preprocess_maf.py
 │   ├── 02_extract_mutations.py
 │   ├── 03_filter_neutral_sites.py
@@ -28,7 +28,7 @@ genome-mutation-pipeline/
 │   ├── plots/
 │   └── logs/
 │
-└── workflow/                # (optional) Workflow diagram, Snakemake, or Nextflow scripts
+└── workflow/                # Workflow diagram
     └── workflow_diagram.png
 
 ## Installation
