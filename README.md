@@ -16,7 +16,7 @@ genome-mutation-pipeline/
 │   ├── example_alignment.maf
 │   └── gene_annotations/
 │
-├── scripts/                 # All Python and R scripts for your workflow
+├── scripts/                 # All Python and R scripts for workflow
 │   ├── 01_preprocess_maf.py
 │   ├── 02_extract_mutations.py
 │   ├── 03_filter_neutral_sites.py
