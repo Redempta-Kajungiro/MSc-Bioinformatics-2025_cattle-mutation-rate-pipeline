@@ -22,7 +22,9 @@ genome-mutation-pipeline/
 │   ├── 03_filter_neutral_sites.py
 │   ├── 04_Mutation_rate_estimation.py
 │   ├── 05_calculate_mutation_rate.R
-│   └── 06_gc_recombination_analysis.py
+│   ├── 06_extract_trinucleotide_contexts
+│   ├── 07_recombination_rate_estimation
+│   └── 07_gc_recombination_analysis.py
 │
 ├── results/                 # Output files (plots, tables, etc.)
 │   ├── mutation_rates.csv
