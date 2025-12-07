@@ -57,10 +57,11 @@ conda activate genome-mutation
 4. Calculate mutation rates
 
    python scripts/06_mutation_rate_estimation.py
+5.Tri-nucleotide context matrix
 
-5. Visualize results in R
+6. Visualize results in R
    Open notebooks/mutation_rate_visualization.Rmd
-#### 📊 6. **Outputs**
+#### 📊 7. **Outputs**
 List what users will find after running the workflow.
 ```markdown
 ## Outputs
