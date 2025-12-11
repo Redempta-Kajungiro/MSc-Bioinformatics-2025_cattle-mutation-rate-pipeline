@@ -10,10 +10,9 @@ genome-mutation-pipeline/
 │
 ├── environment.yml          # ← The Conda environment setup file 
 ├── README.md                # ← Main project description and instructions
-├── LICENSE                  # ← (optional but recommended)
 │
 ├── data/                    # Raw and processed data 
-│   ├── example_alignment.maf
+│   ├── alignment.maf
 │   └── gene_annotations/
 │
 ├── scripts/                 # All Python and R scripts 
@@ -24,15 +23,12 @@ genome-mutation-pipeline/
 │   ├── 05_calculate_mutation_rate.R
 │   ├── 06_extract_trinucleotide_contexts
 │   ├── 07_recombination_rate_estimation
-│   └── 07_gc_recombination_analysis.py
+│   └── 08_GC_content.sh
 │
-├── results/                 # Output files (plots, tables, etc.)
+├── results/                 
 │   ├── mutation_rates.csv
 │   ├── plots/
-│   └── logs/
-│
-└── workflow/                # Workflow diagram
-    └── workflow_diagram.png
+
 
 ## Installation
 Clone this repository and install dependencies:
